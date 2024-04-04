@@ -1,0 +1,6 @@
+version: "1.0"
+type: route
+data:
+  url: "/services/safecmduser"
+  title: _("SafeCmd")
+  component: omv-services-safecmduser-datatable-page

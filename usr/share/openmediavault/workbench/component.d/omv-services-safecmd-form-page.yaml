@@ -1,0 +1,41 @@
+version: "1.0"
+type: component
+data:
+  name: omv-services-safecmd-form-page
+  type: formPage
+  config:
+    request:
+      service: SafeCmd
+      get:
+        method: getCmd
+        params:
+          uuid: "{{ _routeParams.uuid }}"
+      post:
+        method: setCmd
+    fields:
+      - type: confObjUuid
+      - type: textInput
+        name: command
+        label: _("Command")
+        value: ""
+      - type: textarea
+        name: allowlist
+        label: _("Allowlist")
+        value: ""
+      - type: textarea
+        name: denylist
+        label: _("Denylist")
+        value: ""
+      - type: checkbox
+        name: log
+        label: _("Log")
+        value: false
+    buttons:
+      - template: submit
+        execute:
+          type: url
+          url: "/services/safecmd"
+      - template: cancel
+        execute:
+          type: url
+          url: "/services/safecmd"

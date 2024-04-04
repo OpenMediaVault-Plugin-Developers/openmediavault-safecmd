@@ -1,0 +1,7 @@
+version: "1.0"
+type: navigation-item
+data:
+  path: "services.safecmd"
+  text: _("SafeCmd")
+  icon: "mdi:play-protected-content"
+  url: "/services/safecmd"

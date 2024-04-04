@@ -1,0 +1,44 @@
+{
+  "type": "config",
+  "title": "safecmd",
+  "id": "conf.service.safecmd",
+  "queryinfo": {
+    "xpath": "/config/services/safecmd",
+    "iterable": false
+  },
+  "properties": {
+    "cmds": {
+      "type": "object",
+      "properties": {
+        "cmd": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "uuid": {
+                "type": "string",
+                "format": "uuidv4"
+              },
+              "command": {
+                "type": "string",
+                "default": ""
+              },
+              "allowlist": {
+                "type": "string",
+                "default": ""
+              },
+              "denylist": {
+                "type": "string",
+                "default": ""
+              },
+              "log": {
+                "type": "boolean",
+                "default": false
+              }
+            }
+          }
+	}
+      }
+    }
+  }
+}

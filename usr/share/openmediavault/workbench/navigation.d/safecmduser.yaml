@@ -1,0 +1,10 @@
+version: "1.0"
+type: navigation-item
+data:
+  path: "safecmduser"
+  text: _("SafeCmd")
+  icon: "mdi:play-protected-content"
+  url: "/services/safecmduser"
+  permissions:
+    role:
+      - user

@@ -1,0 +1,77 @@
+version: "1.0"
+type: component
+data:
+  name: omv-services-safecmd-datatable-page
+  type: datatablePage
+  config:
+    autoReload: false
+    hasSearchField: true
+    stateId: d0d6779e-f1e2-11ee-a2ec-af1b508135fd
+    store:
+      proxy:
+        service: SafeCmd
+        get:
+          method: getCmdList
+    columns:
+      - name: _("Command")
+        prop: command
+        flexGrow: 5
+      - name: _("Allowlist")
+        prop: allowlist2
+        flexGrow: 1
+      - name: _("Denylist")
+        prop: denylist2
+        flexGrow: 1
+      - name: _("Log")
+        prop: log
+        sortable: true
+        flexGrow: 1
+        cellTemplateName: checkIcon
+    actions:
+      - template: create
+        execute:
+          type: url
+          url: "/services/safecmd/create"
+      - template: edit
+        execute:
+          type: url
+          url: "/services/safecmd/edit/{{ _selected[0].uuid }}"
+      - type: iconButton
+        tooltip: _("Delete")
+        icon: delete
+        execute:
+          type: request
+          request:
+            service: SafeCmd
+            method: deleteCmd
+            params:
+              uuid: "{{ _selected[0].uuid }}"
+        enabledConstraints:
+          minSelected: 1
+          maxSelected: 1
+      - type: iconButton
+        tooltip: _("Execute command")
+        icon: mdi:play-outline
+        execute:
+          type: taskDialog
+          taskDialog:
+            config:
+              title: _("Run command ...")
+              startOnInit: true
+              request:
+                service: SafeCmd
+                method: doCmd
+                params:
+                  uuid: "{{ _selected[0].uuid }}"
+        enabledConstraints:
+          minSelected: 1
+          maxSelected: 1
+      - type: menu
+        icon: mdi:link
+        tooltip: _("Docs")
+        actions:
+          - text: _("omv-extras.org wiki")
+            icon: mdi:link-box-variant-outline
+            execute:
+              type: url
+              url: '/externalRedirect/https%3A%2F%2Fwiki.omv-extras.org%2Fdoku.php%3Fid%3Domv7%3Aomv7_plugins%3Asafecmd'

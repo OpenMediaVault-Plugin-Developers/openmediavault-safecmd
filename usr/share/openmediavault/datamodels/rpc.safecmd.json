@@ -1,0 +1,46 @@
+[
+  {
+    "type": "rpc",
+    "id": "rpc.safecmd.setcmd",
+    "params": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "format": "uuidv4",
+          "required": true
+        },
+        "command": {
+          "type": "string",
+          "required": true
+        },
+        "allowlist": {
+          "type": "string",
+          "required": true
+        },
+        "denylist": {
+          "type": "string",
+          "required": true
+        },
+        "log": {
+          "type": "boolean",
+          "required": true
+        }
+      }
+    }
+  },
+  {
+    "type": "rpc",
+    "id": "rpc.safecmd.docmd",
+    "params": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "format": "uuidv4",
+          "required": true
+        }
+      }
+    }
+  }
+]
