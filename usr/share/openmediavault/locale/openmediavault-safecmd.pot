@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the openmediavault-safecmd package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-safecmd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-07 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Allowlist"
+msgstr ""
+
+msgid "Command"
+msgstr ""
+
+msgid "Command has been run."
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Created command."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Denylist"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Docs"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit command."
+msgstr ""
+
+msgid "Execute command"
+msgstr ""
+
+msgid "List of usernames allowed to run command.<br/>Leave blank to allow all users not in deny list to run command."
+msgstr ""
+
+msgid "List of usernames not allowed to run command."
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+msgid "Log output of command of user runs."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Run command ..."
+msgstr ""
+
+msgid "Running command ..."
+msgstr ""
+
+msgid "SafeCmd"
+msgstr ""
+
+msgid "omv-extras.org wiki"
+msgstr ""
