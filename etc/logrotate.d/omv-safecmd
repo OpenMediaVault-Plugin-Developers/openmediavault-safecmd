@@ -1,0 +1,8 @@
+/var/log/omv-safecmd.log
+{
+  monthly
+  missingok
+  rotate 12
+  compress
+  notifempty
+}

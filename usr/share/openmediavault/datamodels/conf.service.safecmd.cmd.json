@@ -12,6 +12,14 @@
       "type": "string",
       "format": "uuidv4"
     },
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
     "command": {
       "type": "string",
       "default": ""

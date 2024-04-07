@@ -10,6 +10,14 @@
           "format": "uuidv4",
           "required": true
         },
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "description": {
+          "type": "string",
+          "required": true
+        },
         "command": {
           "type": "string",
           "required": true

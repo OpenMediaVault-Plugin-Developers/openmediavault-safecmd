@@ -15,6 +15,14 @@ data:
     fields:
       - type: confObjUuid
       - type: textInput
+        name: name
+        label: _("Name")
+        value: ""
+      - type: textInput
+        name: description
+        label: _("Description")
+        value: ""
+      - type: textInput
         name: command
         label: _("Command")
         value: ""
@@ -22,14 +30,17 @@ data:
         name: allowlist
         label: _("Allowlist")
         value: ""
+        hint: _("List of usernames allowed to run command.<br/>Leave blank to allow all users not in deny list to run command.")
       - type: textarea
         name: denylist
         label: _("Denylist")
         value: ""
+        hint: _("List of usernames not allowed to run command.")
       - type: checkbox
         name: log
         label: _("Log")
         value: false
+        hint: _("Log output of command of user runs.")
     buttons:
       - template: submit
         execute:

@@ -6,16 +6,26 @@ data:
   config:
     autoReload: false
     hasSearchField: true
-    stateId: 2914bfc6-f1ff-11ee-b91d-a7e6ae9d9c3e
+    stateId: d5998dd4-f511-11ee-b439-278761fc2658
     store:
       proxy:
         service: SafeCmd
         get:
           method: getUserCmdList
     columns:
+      - name: _("Name")
+        prop: name
+        flexGrow: 1
+        sortable: true
+      - name: _("Description")
+        prop: description
+        flexGrow: 2
+        sortable: true
       - name: _("Command")
         prop: command
-        flex: 1
+        flexGrow: 3
+        hidden: true
+        sortable: true
     actions:
       - type: iconButton
         tooltip: _("Execute command")

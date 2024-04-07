@@ -13,19 +13,31 @@ data:
         get:
           method: getCmdList
     columns:
+      - name: _("Name")
+        prop: name
+        flexGrow: 1
+        sortable: true
+      - name: _("Description")
+        prop: description
+        flexGrow: 1
+        sortable: true
+        hidden: true
       - name: _("Command")
         prop: command
-        flexGrow: 5
+        flexGrow: 3
+        sortable: true
       - name: _("Allowlist")
         prop: allowlist2
         flexGrow: 1
+        sortable: true
       - name: _("Denylist")
         prop: denylist2
         flexGrow: 1
+        sortable: true
       - name: _("Log")
         prop: log
-        sortable: true
         flexGrow: 1
+        sortable: true
         cellTemplateName: checkIcon
     actions:
       - template: create
