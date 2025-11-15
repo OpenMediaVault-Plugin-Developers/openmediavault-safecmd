@@ -9,7 +9,7 @@ Homepage: http://omv-extras.org/
 
 Package: openmediavault-safecmd
 Architecture: all
-Depends: openmediavault (>= 7)
+Depends: openmediavault (>= 8)
 Description: Safe command plugin for OpenMediaVault.
  Create commands in the admin interface that can be safely
  executed by users in the user interface.
