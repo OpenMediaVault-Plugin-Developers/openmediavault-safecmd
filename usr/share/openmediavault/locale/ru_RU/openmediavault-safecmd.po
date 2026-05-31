@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the openmediavault-safecmd package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Asdfgr Wertyu, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-safecmd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-07 14:26-0500\n"
+"POT-Creation-Date: 2026-05-31 01:26+0000\n"
 "PO-Revision-Date: 2024-04-07 19:28+0000\n"
+"Last-Translator: Asdfgr Wertyu, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/openmediavault-plugin-developers/teams/1854/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,66 +22,69 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Allowlist"
-msgstr ""
+msgstr "Список разрешений"
 
 msgid "Command"
-msgstr ""
+msgstr "Команда"
 
 msgid "Command has been run."
-msgstr ""
+msgstr "Команда выполнена."
 
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 msgid "Created command."
-msgstr ""
+msgstr "Созданная команда."
 
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 msgid "Denylist"
-msgstr ""
+msgstr "Дневник"
 
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 msgid "Docs"
-msgstr ""
+msgstr "Документы"
 
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 msgid "Edit command."
-msgstr ""
+msgstr "Команда редактирования."
 
 msgid "Execute command"
-msgstr ""
+msgstr "Выполнить команду"
 
 msgid ""
 "List of usernames allowed to run command.<br/>Leave blank to allow all users"
 " not in deny list to run command."
 msgstr ""
+"Список имен пользователей, которым разрешено выполнять команду. "
+"<br/>Оставьте пустым, чтобы разрешить выполнение команды всем пользователям,"
+" не входящим в список запрещенных."
 
 msgid "List of usernames not allowed to run command."
-msgstr ""
+msgstr "Список имен пользователей, которым запрещено выполнять команду."
 
 msgid "Log"
-msgstr ""
+msgstr "Журнал"
 
 msgid "Log output of command of user runs."
-msgstr ""
+msgstr "Вывод журнала команд, выполняемых пользователем."
 
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 msgid "Run command ..."
-msgstr ""
+msgstr "Выполните команду ..."
 
 msgid "Running command ..."
-msgstr ""
+msgstr "Выполняем команду ..."
 
 msgid "SafeCmd"
-msgstr ""
+msgstr "SafeCmd"
 
 msgid "omv-extras.org wiki"
-msgstr ""
+msgstr "omv-extras.org вики"

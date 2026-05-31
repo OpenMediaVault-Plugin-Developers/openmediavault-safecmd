@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the openmediavault-safecmd package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Andi Chandler <andi@gowling.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-safecmd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-07 14:26-0500\n"
+"POT-Creation-Date: 2026-05-31 01:26+0000\n"
 "PO-Revision-Date: 2024-04-07 19:28+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/openmediavault-plugin-developers/teams/1854/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,66 +22,68 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Allowlist"
-msgstr ""
+msgstr "Allowlist"
 
 msgid "Command"
-msgstr ""
+msgstr "Command"
 
 msgid "Command has been run."
-msgstr ""
+msgstr "Command has been run."
 
 msgid "Create"
-msgstr ""
+msgstr "Create"
 
 msgid "Created command."
-msgstr ""
+msgstr "Created command."
 
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 msgid "Denylist"
-msgstr ""
+msgstr "Denylist"
 
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 msgid "Docs"
-msgstr ""
+msgstr "Docs"
 
 msgid "Edit"
-msgstr ""
+msgstr "Edit"
 
 msgid "Edit command."
-msgstr ""
+msgstr "Edit command."
 
 msgid "Execute command"
-msgstr ""
+msgstr "Execute command"
 
 msgid ""
 "List of usernames allowed to run command.<br/>Leave blank to allow all users"
 " not in deny list to run command."
 msgstr ""
+"List of usernames allowed to run command.<br/>Leave blank to allow all users"
+" not in deny list to run command."
 
 msgid "List of usernames not allowed to run command."
-msgstr ""
+msgstr "List of usernames not allowed to run command."
 
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 msgid "Log output of command of user runs."
-msgstr ""
+msgstr "Log output of command of user runs."
 
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 msgid "Run command ..."
-msgstr ""
+msgstr "Run command ..."
 
 msgid "Running command ..."
-msgstr ""
+msgstr "Running command ..."
 
 msgid "SafeCmd"
-msgstr ""
+msgstr "SafeCmd"
 
 msgid "omv-extras.org wiki"
-msgstr ""
+msgstr "omv-extras.org wiki"

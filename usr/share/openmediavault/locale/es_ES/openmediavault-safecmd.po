@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the openmediavault-safecmd package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Raul Fernandez Garcia <raulfg3@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-safecmd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-07 14:26-0500\n"
+"POT-Creation-Date: 2026-05-31 01:26+0000\n"
 "PO-Revision-Date: 2024-04-07 19:28+0000\n"
+"Last-Translator: Raul Fernandez Garcia <raulfg3@gmail.com>, 2024\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/openmediavault-plugin-developers/teams/1854/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,66 +22,71 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 msgid "Allowlist"
-msgstr ""
+msgstr "Permitidos"
 
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 msgid "Command has been run."
-msgstr ""
+msgstr "El comando se ha ejecutado."
 
 msgid "Create"
-msgstr ""
+msgstr "Crear"
 
 msgid "Created command."
-msgstr ""
+msgstr "Comando creado."
 
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 msgid "Denylist"
-msgstr ""
+msgstr "Lista de baneados"
 
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 msgid "Docs"
-msgstr ""
+msgstr "Documentos"
 
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 msgid "Edit command."
-msgstr ""
+msgstr "Comando de edición."
 
 msgid "Execute command"
-msgstr ""
+msgstr "Comando de ejecución."
 
 msgid ""
 "List of usernames allowed to run command.<br/>Leave blank to allow all users"
 " not in deny list to run command."
 msgstr ""
+"Lista de nombres de usuario autorizados para ejecutar el comando. "
+"<br/>Déjelo en blanco para permitir que todos los usuarios que no están en "
+"la lista de denegación ejecuten el comando."
 
 msgid "List of usernames not allowed to run command."
 msgstr ""
+"Lista de nombres de usuarios a los que no se les permite ejecutar el "
+"comando."
 
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 msgid "Log output of command of user runs."
-msgstr ""
+msgstr "Registrar la salida del comando de las ejecuciones del usuario."
 
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 msgid "Run command ..."
-msgstr ""
+msgstr "Comando a ejecutar ..."
 
 msgid "Running command ..."
-msgstr ""
+msgstr "Comando ejecutándose ..."
 
 msgid "SafeCmd"
-msgstr ""
+msgstr "SafeCmd"
 
 msgid "omv-extras.org wiki"
-msgstr ""
+msgstr "omv-extras.org wiki"

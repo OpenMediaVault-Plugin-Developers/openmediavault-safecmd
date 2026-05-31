@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the openmediavault-safecmd package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Stephan Paternotte <stephan@paternottes.net>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-safecmd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-07 14:26-0500\n"
+"POT-Creation-Date: 2026-05-31 01:26+0000\n"
 "PO-Revision-Date: 2024-04-07 19:28+0000\n"
+"Last-Translator: Stephan Paternotte <stephan@paternottes.net>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/openmediavault-plugin-developers/teams/1854/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,66 +22,69 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Allowlist"
-msgstr ""
+msgstr "Toestaanlijst"
 
 msgid "Command"
-msgstr ""
+msgstr "Opdracht"
 
 msgid "Command has been run."
-msgstr ""
+msgstr "Opdracht is uitgevoerd."
 
 msgid "Create"
-msgstr ""
+msgstr "Aanmaken"
 
 msgid "Created command."
-msgstr ""
+msgstr "Opdracht aanmaken."
 
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 msgid "Denylist"
-msgstr ""
+msgstr "Weigerlijst"
 
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 msgid "Docs"
-msgstr ""
+msgstr "Docs"
 
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 msgid "Edit command."
-msgstr ""
+msgstr "Opdracht bewerken."
 
 msgid "Execute command"
-msgstr ""
+msgstr "Opdracht uitvoeren"
 
 msgid ""
 "List of usernames allowed to run command.<br/>Leave blank to allow all users"
 " not in deny list to run command."
 msgstr ""
+"Lijst met gebruikersnamen die opdracht mogen uitvoeren.<br/>Laat leeg om "
+"alle gebruikers die niet in de weigerlijst staan, de opdracht te laten "
+"uitvoeren."
 
 msgid "List of usernames not allowed to run command."
-msgstr ""
+msgstr "Lijst met gebruikersnamen die geen opdracht mogen uitvoeren."
 
 msgid "Log"
-msgstr ""
+msgstr "Logboek"
 
 msgid "Log output of command of user runs."
-msgstr ""
+msgstr "Uitvoer van commando van gebruikers registreren."
 
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 msgid "Run command ..."
-msgstr ""
+msgstr "Opdracht uitvoeren…"
 
 msgid "Running command ..."
-msgstr ""
+msgstr "Opdracht uitvoeren…"
 
 msgid "SafeCmd"
-msgstr ""
+msgstr "SafeCmd"
 
 msgid "omv-extras.org wiki"
-msgstr ""
+msgstr "omv-extras.org wiki"
